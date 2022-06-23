@@ -38,6 +38,7 @@ h1 {
 
 img {
     box-shadow: -5px 5px 7px #1010107f;;
+    border-radius: 3rem;
 }
 
 .navigation {
@@ -86,6 +87,18 @@ img {
     }
   }
 
+  .prodducts_wrapper {
+    display: flex;  
+    flex-flow: row;
+    align-content: flex-start;
+    text-align: center;
+  }
+  
+  .products_wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+    
+  }
 
 .wrapper {
     display: flex;  
@@ -114,6 +127,15 @@ img {
     border-bottom-right-radius: 3rem;
   }
   
+  .main_product {
+    text-align: center;
+    background: rgba(249, 249, 249, 0.806);
+    font-size: 19px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
   .main {
     text-align: left;
     background: rgba(249, 249, 249, 0.806);
@@ -134,9 +156,10 @@ img {
     background: rgba(249, 249, 249, 0.806);;
   }
   
-  .products {
-    background: rgba(249, 249, 249, 0.806);
-  }
+.products {
+    border-radius: 3rem;
+    padding: 2rem;
+}
 
   @media all and (min-width: 600px) {
     .columns { flex: 1 0 0; }
