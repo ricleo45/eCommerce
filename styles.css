@@ -33,11 +33,11 @@ h1 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 6rem;
-    text-shadow: -5px 5px 7px #101010;
+    text-shadow: -5px 5px 7px #48515381;
 }
 
 img {
-    box-shadow: -5px 5px 7px #101010;;
+    box-shadow: -5px 5px 7px #1010107f;;
 }
 
 .navigation {
@@ -46,7 +46,6 @@ img {
     justify-content: flex-start;
     list-style: none;
     margin: 0;
-    text-shadow:2px 3px 3px #101010;;
     color:#fff;
   }
   
@@ -57,11 +56,12 @@ img {
     padding-left: 12px;
     color: black;
     font-size: 3rem;
-  }
-  
-  .navigation a:hover {
+}
+
+.navigation a:hover {
     background: #71c387;
     border-radius: 0.5rem;
+    box-shadow: -5px 5px 7px #1010107f;;
   }
   
   @media all and (max-width: 800px) {
@@ -134,6 +134,10 @@ img {
     background: rgba(249, 249, 249, 0.806);;
   }
   
+  .products {
+    background: rgba(249, 249, 249, 0.806);
+  }
+
   @media all and (min-width: 600px) {
     .columns { flex: 1 0 0; }
   }
@@ -144,6 +148,8 @@ img {
     .main    { order: 2; }
     .right-2 { order: 3; }
     .footer  { order: 4; }
+    .products {order: 5; }
+    
 
   }
   
